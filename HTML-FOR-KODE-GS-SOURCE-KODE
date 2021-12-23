@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <script>
+      function absen(){
+      google.script.run.withSuccessHandler(function(hasil){alert(hasil)}).intiabsen(document.getElementById("inp").value)
+      }
+  </script>
+  </head>
+  <body>
+    <h1>Selamat Datang di </h1>
+    <h2>Presensi Ormawa  </h2>
+    STIKes Mahardika Cirebon<br>
+    Masukkan NPM<br>
+    <input type="text" id="inp"><br><br>
+    <button onclick="absen()">Silahkan Absen Sekarang Ya</button>
+  </body>
+</html>
